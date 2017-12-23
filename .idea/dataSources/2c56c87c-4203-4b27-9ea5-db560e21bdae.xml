@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="eventmanager@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="eventmanager">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="booking_room"/>
+    <schema id="4" parent="1" name="cooking"/>
+    <schema id="5" parent="1" name="filmovi_test"/>
+    <schema id="6" parent="1" name="galerija"/>
+    <schema id="7" parent="1" name="hb_kuhinjica"/>
+    <schema id="8" parent="1" name="hb_student"/>
+    <schema id="9" parent="1" name="information_schema"/>
+    <schema id="10" parent="1" name="koncerti"/>
+    <schema id="11" parent="1" name="kuhinjica"/>
+    <schema id="12" parent="1" name="moji_filmovi"/>
+    <schema id="13" parent="1" name="mysql"/>
+    <schema id="14" parent="1" name="narucivanje"/>
+    <schema id="15" parent="1" name="performance_schema"/>
+    <schema id="16" parent="1" name="primer1"/>
+    <schema id="17" parent="1" name="primer2"/>
+    <schema id="18" parent="1" name="radovi"/>
+    <schema id="19" parent="1" name="srednja_skola"/>
+    <schema id="20" parent="1" name="sys"/>
+    <schema id="21" parent="1" name="test"/>
+    <table id="22" parent="2" name="event"/>
+    <column id="23" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="24" parent="22" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="22" name="location">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="22" name="start_date">
+      <Position>4</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="22" name="start_time">
+      <Position>5</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="22" name="end_date">
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="22" name="end_time">
+      <Position>7</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="30" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

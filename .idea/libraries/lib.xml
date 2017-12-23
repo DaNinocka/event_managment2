@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="jar://D:/TomCat 8.0.47/apache-tomcat-8.0.47/lib/catalina-ant.jar!/" />
+      <root url="jar://D:/TomCat 8.0.47/apache-tomcat-8.0.47/lib/catalina-ha.jar!/" />
+      <root url="jar://D:/TomCat 8.0.47/apache-tomcat-8.0.47/lib/catalina-storeconfig.jar!/" />
+      <root url="jar://D:/TomCat 8.0.47/apache-tomcat-8.0.47/lib/catalina-tribes.jar!/" />
+      <root url="jar://D:/TomCat 8.0.47/apache-tomcat-8.0.47/lib/catalina.jar!/" />
+      <root url="jar://D:/TomCat 8.0.47/apache-tomcat-8.0.47/lib/tomcat-jdbc.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/annotation-processor/src/main/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/annotation-processor/src/test/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/cdi/src/main/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/cdi/src/test/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/documentation/src/test/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/engine/src/main/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/engine/src/test/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/integration/src/test/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/osgi/felixtest/src/test/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/osgi/integrationtest/src/test/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/performance/src/main/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/performance/src/main/java-bv2" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/tck-runner/src/main/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/tck-runner/src/test/java" />
+      <root url="file://D:/hibernate/hibernate-validator-6.0.4.Final/project/test-utils/src/main/java" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

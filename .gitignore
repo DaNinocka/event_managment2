@@ -1,0 +1,6 @@
+out/
+*.class
+.idea/**/workspace.xml
+.idea/dictionaries
+.idea/**/tasks.xml
+.idea/misc.xml
