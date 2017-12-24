@@ -7,21 +7,21 @@ Setup guide
 *System Requirements
 
 - Hardware Requirements 
-   (Minimum)	Core i5, 1.8 GHz, 4 gig RAM, 1 gig disk space.
-   (Recommended)	Core i5, 2.5 GHz GHz, 8 gig RAM, 1 gig disk space.
+   - (Minimum)	Core i5, 1.8 GHz, 4 gig RAM, 1 gig disk space.
+   - (Recommended)	Core i5, 2.5 GHz GHz, 8 gig RAM, 1 gig disk space.
 - Operating System
-   Microsoft Windows 10/8/7/Vista/2003/XP (32 or 64 bit)
-   macOS 10.8 or later(only 64-bit systems are supported)
-   OS Linux (note that a 32-bit JDK is not bundled, so a 64-bit system is recommended)
+   - Microsoft Windows 10/8/7/Vista/2003/XP (32 or 64 bit)
+   - macOS 10.8 or later(only 64-bit systems are supported)
+   - OS Linux (note that a 32-bit JDK is not bundled, so a 64-bit system is recommended)
    
 *Technologies used
 
-Spring 4.3.13 RELEASE
-Hibernate 5.2.12 Final
-MySQL
-Java 8
-IntelliJ IDEA 2017.1.5 Ultimate
-Tomcat 8.0.47
+* Spring 4.3.13 RELEASE
+* Hibernate 5.2.12 Final
+* MySQL
+* Java 8
+* IntelliJ IDEA 2017.1.5 Ultimate
+* Tomcat 8.0.47
 
 After you clone this repository to your computer in order to run this application, you will first have to install Apache Tomcat 8.0.47 and
 IntelliJ IDEA Ultimate edition (because of Spring and Tomcat support).
