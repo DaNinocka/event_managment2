@@ -29,8 +29,8 @@ Links for downloading:
 https://www.jetbrains.com/idea/download/#section=windows
 https://tomcat.apache.org/download-80.cgi
 Also,you will need to have JDK 8 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-When you install all neccessary above, you can run IntelliJ IDEA and select open project. When project is opened, first go to Build/Build Project and then look at the upper right corner, there is a green arrow and when you click on it the project should be opened in web browser, but before that you sholud set up configuration for server connection (button on the left side of the green run arrow. 
-Regarding the database, there is exported .sql file for creating the database and other settings for database you can see in hibernate.cfg.xml file in project repository.
+When you install all neccessary above, you can run IntelliJ IDEA and select open project. When project is opened, first go to Build/Build Project and then look at the upper right corner, there is a green arrow and when you click on it the project should be opened in web browser, but before that you sholud set up configuration for server connection (button on the left side of the green run arrow. About configuration for Tomcat - first go to the Edit Configuration, go to Configure button and there you sholud see where to upload suitable tomcat jar files form the folder where you already downloaded Tomcat and when you finish that choose application server (in this case Tomcat 8.0.47) on a drop down list. After that select suitable JDK and check your ports (HTTP port should be 8080 and JMX port should be 1099).
+Regarding the database, there is exported .sql file for creating the database and other settings for database you can see in hibernate.cfg.xml file in project repository. You shold have MySQL instaled. Particulary, I am using HeidiSQL and you can dowload it here https://www.heidisql.com/. 
 
 
 
