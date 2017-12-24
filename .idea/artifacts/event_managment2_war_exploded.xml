@@ -2,10 +2,10 @@
   <artifact type="exploded-war" name="event_managment2:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/event_managment2_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="event_managment2/web/Web" />
+      <element id="javaee-facet-resources" facet="event_Manager/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="event_managment2" />
+          <element id="module-output" name="event_Manager" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Spring-4.3.13.RELEASE" />

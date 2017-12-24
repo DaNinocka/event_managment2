@@ -109,7 +109,7 @@
         <tr>
             <td>
                 <form:label path="name">
-                    <spring:message text="Name"/>
+                    <spring:message text="Name(required)"/>
                 </form:label>
             </td>
             <td>
@@ -119,7 +119,7 @@
         <tr>
             <td>
                 <form:label path="location">
-                    <spring:message text="Location"/>
+                    <spring:message text="Location(required)"/>
                 </form:label>
             </td>
             <td>
@@ -129,7 +129,7 @@
         <tr>
             <td>
                 <form:label path="start_date">
-                    <spring:message text="Start date"/>
+                    <spring:message text="Start date (required in format YYYY-MM-DD)"/>
                 </form:label>
             </td>
             <td>
@@ -139,7 +139,7 @@
         <tr>
             <td>
                 <form:label path="start_time">
-                    <spring:message text="Start time"/>
+                    <spring:message text="Start time (required in format HH:MM:SS)"/>
                 </form:label>
             </td>
             <td>
@@ -149,7 +149,7 @@
         <tr>
             <td>
                 <form:label path="end_date">
-                    <spring:message text="End date"/>
+                    <spring:message text="End date(required in format YYYY-MM-DD) "/>
                 </form:label>
             </td>
             <td>
@@ -159,7 +159,7 @@
         <tr>
             <td>
                 <form:label path="end_time">
-                    <spring:message text="End time"/>
+                    <spring:message text="End time (required in format HH:MM:SS)"/>
                 </form:label>
             </td>
             <td>
