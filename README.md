@@ -30,9 +30,8 @@ https://www.jetbrains.com/idea/download/#section=windows
 https://tomcat.apache.org/download-80.cgi
 Also,you will need to have JDK 8 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 When you install all neccessary above, you can run IntelliJ IDEA and select open project. When project is opened, 
-look at the upper right corner, there is a green arrow, click on it and the project would be opened in web browser. 
-Regarding the database, there is exported .sql file for creating the database and other settings you can see in hibernate.cfg.xml file
-in project repository.
+look at the upper right corner, there is a green arrow and when you click on it the project should be opened in web browser, but before that you sholud set up configuration for server connection (button on the left side of the green run arrow. 
+Regarding the database, there is exported .sql file for creating the database and other settings for database you can see in hibernate.cfg.xml file in project repository.
 
 
 
